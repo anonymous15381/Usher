@@ -1,0 +1,105 @@
+ANALYSIS:
+
+obs_sm_memory_utilization_shepherd_default
+
+obs_sm_memory_utilization_gpulet_default
+
+obs_sm_memory_utilization_alpaserve_default
+
+obs_sm_memory_utilization_shepherd_gpulet_alpaserve_default
+
+obs_interference_measure
+
+obs_MultipleKernels
+
+obs_sm_memory_utilization_shepherd_concurrency
+
+obs_multiModels_concurrency
+
+obs_sm_memory_utilization_shepherd_sorting
+
+obs_multiModels_sorting
+
+obs_sm_memory_ratio_cdf
+
+obs_sm_memory_utilization_shepherd_SM_memory_mix
+
+obs_multiModels_SM_memory_mix
+
+obs_weight_similarity_CV
+
+obs_weight_similarity_lm
+
+
+
+
+
+EXP:
+
+goodput_varyingLoads_fixedCluster_realDeployment_MAF1 alpa d valuewise ok
+
+goodput_varyingLoads_fixedCluster_realDeployment_MAF2 alpa d valuewise ok
+
+goodput_varyingGPUs_fixedCluster_simulation_MAF1 (goodput aro barano lagbe corr. to prev. in real deployment) alpa d part valuewise ok
+
+goodput_varyingGPUs_fixedCluster_simulation_MAF2 (goodput aro barano lagbe corr. to prev. in real deployment) alpa d part valuewise ok
+
+sm_memory_utilization_varyingLoads_fixedCluster_realDeployment_MAF1 valuewise ok
+
+sm_memory_utilization_varyingLoads_fixedCluster_realDeployment_MAF2 valuewise ok
+
+noOfGpus_varyingLoads_nonFixedCluster_realDeployment_MAF1 (eitar corr. kore onno related fig guli change kora lagbe, esp, x axis values, yaxis cost values) alpa d valuewise ok
+
+noOfGpus_varyingLoads_nonFixedCluster_realDeployment_MAF2 valuewise ok
+
+noOfGpus_varyingLoads_nonFixedCluster_simulation_MAF1 alpa d valuewise ok
+
+noOfGpus_varyingLoads_nonFixedCluster_simulation_MAF2 alpa d valuewise ok
+
+sm_memory_utilization_varyingLoads_nonFixedCluster_realDeployment_MAF1_noOfGpus valuewise ok
+
+sm_memory_utilization_varyingLoads_nonFixedCluster_realDeployment_MAF2_noOfGpus valuewise ok
+
+cost_varyingLoads_nonFixedCluster_realDeployment_MAF1 alpa d valuewise ok
+
+cost_varyingLoads_nonFixedCluster_realDeployment_MAF2 alpa d valuewise ok
+
+cost_varyingLoads_nonFixedCluster_simulation_MAF1 alpa d valuewise ok
+
+cost_varyingLoads_nonFixedCluster_simulation_MAF2 alpa d valuewise ok
+
+sm_memory_utilization_varyingLoads_nonFixedCluster_realDeployment_MAF1_cost valuewise ok
+
+sm_memory_utilization_varyingLoads_nonFixedCluster_realDeployment_MAF2_cost valuewise ok
+
+goodput_cost_nonFixedCluster_realDeployment_MAF1 alpa d valuewise ok
+
+goodput_cost_nonFixedCluster_realDeployment_MAF2 alpa d valuewise ok
+
+goodput_cost_nonFixedCluster_simulation_MAF1 alpa d valuewise ok
+
+goodput_cost_nonFixedCluster_simulation_MAF2 alpa d valuewise ok
+
+microbenchmarking valuewise ok st
+
+goodput_fixedCluster_realDeployment_component st
+
+sm_memory_utilization_fixedCluster_realDeployment_component st
+
+alpha_impact
+
+theta_impact
+
+omega_impact
+
+
+
+prev colors: obs_bars:
+blue
+green
+
+exp_lines:
+red
+lime
+green
+blue

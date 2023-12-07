@@ -1,0 +1,14 @@
+MObilenet_mnist
+
+in both aws and rivanna: gpu: 1 Nvidia TESLA V100.
+batch size 4, total req. no = 12, duration: 2.3719403743743896s (in AWS)
+batch size 4, total req. no = 12, duration: 52.596s (in rivanna, 1 node, 8 cores, 128 GB memory)
+memory required: (using allow growth in tensorflow): memory max reached 3030MB of total 16GB in the GPU (in rivanna).
+
+in aws: v100: p3.2xlarge:
+Batch size, Worst-case latency for 32 requests:  2 2.5225203037261963s, max SM: 81%, max memory: 2908MB/16384MB
+Batch size, Worst-case latency for 32 requests:  4 2.4605352878570557s, max SM: 82.4%, max memory: 2568MB/16384MB
+Batch size, Worst-case latency for 32 requests:  8 2.524923086166382s, max SM: 87.3%, max memory: 2972MB/16384MB
+Batch size, Worst-case latency for 32 requests:  16 2.4345476627349854s, max SM: 89.99%, max memory: 3100MB/16384MB
+Batch size, Worst-case latency for 32 requests:  32 2.4538652896881104s, max SM: 92.9%, max memory: 3884MB/16384MB
+
